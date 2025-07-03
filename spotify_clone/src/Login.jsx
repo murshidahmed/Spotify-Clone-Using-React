@@ -3,9 +3,12 @@ import "./login.css"
 
 function Login() {
   return (
-    <div className=' flex justify-center'>
-        <div className='w-24'> 
-            <img src="/my mj.jpg" alt="" />
+    <div className='login'>
+        <div className='logo'> 
+            <img src="/images/spotifylogo.png"/>
+        </div>
+        <div className='button'>
+          <a>LOGIN WITH SPOTIFY</a>
         </div>
     </div>
   )

@@ -1,1 +1,21 @@
 @import "tailwindcss";
+
+.login{
+    background-color: black;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1ab24f;
+    border-radius: 80px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-weight: 600;
+}
